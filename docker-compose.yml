@@ -1,0 +1,17 @@
+services:
+  yocto:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    image: yocto-bbb:base
+
+    container_name: yocto-bbb
+
+    stdin_open: true
+    tty: true
+
+    working_dir: /workspace
+
+    volumes:
+      - ./workspace:/workspace

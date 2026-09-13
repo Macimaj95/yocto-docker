@@ -14,3 +14,7 @@ sstate-cache/
 # OS
 .DS_Store
 Thumbs.db
+
+#Docker workspace
+workspace/
+
