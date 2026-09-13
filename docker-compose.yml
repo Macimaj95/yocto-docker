@@ -15,3 +15,6 @@ services:
 
     volumes:
       - ./workspace:/workspace
+      - ./downloads:/downloads
+      - ./sstate-cache:/sstate-cache
+      - ./build:/build
